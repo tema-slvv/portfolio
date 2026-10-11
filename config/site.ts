@@ -20,7 +20,7 @@ export const siteConfig = {
   ],
   navMenuItems: [],
   links: {
-    github: "https://github.com/Artem-Solovyov",
+    github: "https://github.com/tema-slvv",
     telegram: "https://t.me/tema_slvv",
     linkedin: "https://www.linkedin.com/in/art-soloviov/",
     mail: "mailto:solovevartem892@gmail.com",
