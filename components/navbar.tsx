@@ -19,18 +19,17 @@ import { IoMdMail } from "react-icons/io";
 import { siteConfig } from "@/config/site";
 import { ThemeSwitch } from "@/components/theme-switch";
 import { MdDevices } from "react-icons/md";
+import Image from "next/image";
+import { Logo } from "./Logo";
 
 export const Navbar = () => {
   return (
-    <HeroUINavbar maxWidth="xl" position="sticky">
-      <NavbarContent className="basis-1/5 sm:basis-full relative " justify="start">
-        <NavbarBrand as="li" className="gap-3 max-w-fit">
-          <NextLink className="flex justify-start items-center gap-1" href="/">
-            <MdDevices size={22} />
-            <p className="font-bold text-inherit">tema_slvv</p>
-          </NextLink>
+    <HeroUINavbar maxWidth="xl" position="sticky" height={54} className="bg-white shadow-sm dark:bg-black">
+      <NavbarContent className="basis-1/5 sm:basis-full relative g-1" justify="start">
+        <NavbarBrand as="li" className=" max-w-fit">
+          <Logo />
         </NavbarBrand>
-        <ul className="hidden lg:flex gap-3 justify-start ml-4">
+        <ul className="hidden lg:flex gap-3 justify-start">
           {siteConfig.navItems.map((item) => (
             <NavbarItem key={item.href}>
               <NextLink

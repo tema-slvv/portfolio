@@ -11,12 +11,13 @@ export const HeroSection = () => {
   return (
     <section className="flex flex-col items-center justify-center gap-6 py-8 md:py-10">
       <div className="inline-block max-w-2xl text-center justify-center">
-        <span className={title()}>Experienced&nbsp;</span>
-        <span className={title({ color: "blue" })}>Web Developer&nbsp;</span>
+        {/* <span className={title()}>Experienced&nbsp;</span> */}
+        <span className={title({ color: "blue" })}>Fullstack Developer&nbsp;</span>
         <br />
-        <span className={title()}>Crafting Scalable and Engaging Frontend Solutions</span>
+        <span className={title()}>Building Scalable Web Applications</span>
         <div className={subtitle({ class: "mt-4" })}>
-          Currently looking for full-time opportunities to build high-quality, user-focused web applications.
+          Software Engineer with 3+ years of experience building modern web applications, complex CRM systems, and
+          reliable digital products.
         </div>
       </div>
 
